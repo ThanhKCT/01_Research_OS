@@ -2,17 +2,19 @@
 
 ---
 
-# 🚀 Bắt đầu buổi làm việc
+# 1. Bắt đầu buổi làm việc
+
+Luôn đồng bộ phiên bản mới nhất từ GitHub.
 
 ```bash
 git pull
 ```
 
-Đồng bộ phiên bản mới nhất từ GitHub về máy đang làm việc.
-
 ---
 
-# 💾 Kết thúc buổi làm việc
+# 2. Kết thúc buổi làm việc
+
+Sau khi hoàn thành công việc.
 
 ```bash
 git add .
@@ -36,109 +38,95 @@ git commit -m "docs: update README"
 
 ---
 
-# 🔍 Kiểm tra trạng thái
+# 3. Kiểm tra trạng thái
 
 ```bash
 git status
 ```
 
-Xem các file đã thay đổi, đã theo dõi hay chưa.
+Hiển thị trạng thái hiện tại của Repository.
 
 ---
 
-# 🌐 Kiểm tra kết nối GitHub
+# 4. Kiểm tra kết nối GitHub
 
 ```bash
 git remote -v
 ```
 
-Hiển thị địa chỉ Repository trên GitHub.
+Hiển thị địa chỉ Repository.
 
 ---
 
-# 📜 Xem lịch sử Commit
+# 5. Xem lịch sử Commit
 
 ```bash
 git log --oneline
 ```
 
-Hiển thị danh sách các commit gần nhất.
-
 ---
 
-# 📂 Kiểm tra thư mục hiện tại
+# 6. Kiểm tra thư mục hiện tại
 
 ```bash
 pwd
 ```
 
-Hiển thị thư mục đang làm việc.
-
 ---
 
-# 📁 Liệt kê file trong thư mục
+# 7. Liệt kê file trong thư mục
 
 ```bash
 ls
 ```
 
-Hiển thị các file và thư mục hiện có.
-
 ---
 
-# 📥 Lấy cập nhật từ GitHub
+# 8. Quy trình làm việc chuẩn
 
-```bash
-git pull
-```
-
-Luôn thực hiện trước khi bắt đầu làm việc trên máy khác.
-
----
-
-# 📤 Đẩy thay đổi lên GitHub
-
-```bash
-git add .
-git commit -m "feat: mô tả thay đổi"
-git push
-```
-
----
-
-# 🔄 Quy trình làm việc chuẩn
-
-## Làm trên PC
+## Trên PC
 
 ```text
 git pull
-      ↓
-Viết code
-      ↓
+
+↓
+
+Làm việc
+
+↓
+
 git add .
-      ↓
+
+↓
+
 git commit -m "feat: ..."
-      ↓
+
+↓
+
 git push
 ```
-
----
 
 ## Chuyển sang Laptop
 
 ```text
 git pull
-      ↓
-Viết code
-      ↓
+
+↓
+
+Làm việc
+
+↓
+
 git add .
-      ↓
+
+↓
+
 git commit -m "feat: ..."
-      ↓
+
+↓
+
 git push
 ```
-
----
 
 ## Quay lại PC
 
@@ -148,17 +136,15 @@ git pull
 
 ---
 
-# ⚠️ Quy tắc quan trọng
+# 9. Quy tắc
 
-✅ Luôn bắt đầu bằng:
+- Luôn bắt đầu bằng:
 
 ```bash
 git pull
 ```
 
----
-
-✅ Luôn kết thúc bằng:
+- Luôn kết thúc bằng:
 
 ```bash
 git add .
@@ -166,17 +152,15 @@ git commit -m "feat: ..."
 git push
 ```
 
----
-
-❌ Không sửa cùng một file trên cả PC và Laptop trước khi đồng bộ.
+- Không chỉnh sửa cùng một file trên PC và Laptop trước khi đồng bộ.
 
 ---
 
-# 📝 Quy ước Commit
+# 10. Quy ước Commit
 
-| Tiền tố | Ý nghĩa |
-|---------|----------|
-| feat | Thêm tính năng mới |
+| Prefix | Ý nghĩa |
+|--------|---------|
+| feat | Thêm tính năng |
 | fix | Sửa lỗi |
 | docs | Cập nhật tài liệu |
 | refactor | Cải tiến mã nguồn |
@@ -198,7 +182,7 @@ git commit -m "docs: update README"
 
 ---
 
-# 🎯 95% thời gian chỉ dùng 4 lệnh
+# 11. Bốn lệnh sử dụng hằng ngày
 
 ```bash
 git pull
@@ -212,4 +196,18 @@ git push
 
 ---
 
-**ResearchLab v1.0**
+# Ghi nhớ
+
+Git chỉ là công cụ đồng bộ.
+
+Mỗi ngày chỉ cần:
+
+1. git pull
+2. Làm việc
+3. git add .
+4. git commit
+5. git push
+
+---
+
+ResearchLab v1.0
